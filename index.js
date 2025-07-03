@@ -8,15 +8,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/index", (req, res) => {
-  res.sendFile(__dirname + "/index.html")
+  res.sendFile(codeying-eng + "/index.html")
 });
 
 app.get("/confused%20city", (req, res) => {
-  res.sendFile(__dirname + "/index2.html")
+  res.sendFile(codeying-eng + "/index2.html")
 });
 
 app.get("/stupid%20city", (req, res) => {
-  res.sendFile(__dirname + "/index3.html")
+  res.sendFile(codeying-eng + "/index3.html")
 });
 
 
