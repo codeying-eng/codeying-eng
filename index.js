@@ -8,15 +8,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/happy%20city", (req, res) => {
-  res.sendFile(__dirname + "/help.html")
+  res.sendFile(__dirname + "/index.html")
 });
 
 app.get("/confused%20city", (req, res) => {
-  res.sendFile(__dirname + "/help2.html")
+  res.sendFile(__dirname + "/index2.html")
 });
 
 app.get("/stupid%20city", (req, res) => {
-  res.sendFile(__dirname + "/help3.html")
+  res.sendFile(__dirname + "/index3.html")
 });
 
 
