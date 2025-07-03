@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send("happy home");
 });
 
-app.get("/inbex", (req, res) => {
+app.get("/index", (req, res) => {
   res.sendFile(__dirname + "/index.html")
 });
 
